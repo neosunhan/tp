@@ -1,5 +1,66 @@
 {
   "lessons" : [ {
+    "type" : "consult",
+    "lessonDesc" : "Recursion Consultation",
+    "startDateTime" : "2022-12-12T12:00:00",
+    "endDateTime" : "2022-12-12T13:00:00",
+    "studentList" : [ {
+      "name" : "Alice Pauline",
+      "matricNum" : "A0000000F",
+      "gradeProfile" : {
+        "gradeMap" : {
+          "MC1" : {
+            "assessment" : "MC1",
+            "isGraded" : false,
+            "marks" : 0.0
+          },
+          "MC2" : {
+            "assessment" : "MC2",
+            "isGraded" : false,
+            "marks" : 0.0
+          },
+          "RA1" : {
+            "assessment" : "RA1",
+            "isGraded" : false,
+            "marks" : 0.0
+          },
+          "RA2" : {
+            "assessment" : "RA2",
+            "isGraded" : false,
+            "marks" : 0.0
+          },
+          "MIDTERM" : {
+            "assessment" : "MIDTERM",
+            "isGraded" : false,
+            "marks" : 0.0
+          },
+          "PRACTICAL_ASSESSMENT" : {
+            "assessment" : "PRACTICAL_ASSESSMENT",
+            "isGraded" : false,
+            "marks" : 0.0
+          },
+          "FINAL_ASSESSMENT" : {
+            "assessment" : "FINAL_ASSESSMENT",
+            "isGraded" : false,
+            "marks" : 0.0
+          },
+          "STUDIO_ATTENDANCE" : {
+            "assessment" : "STUDIO_ATTENDANCE",
+            "isGraded" : false,
+            "marks" : 0.0
+          }
+        }
+      }
+    } ],
+    "attendance" : {
+      "0" : false
+    },
+    "generalNotes" : [ ],
+    "studentNotes" : {
+      "0" : [ ]
+    },
+    "isCompleted" : false
+  }, {
     "type" : "mastery check",
     "lessonDesc" : "Mastery Check 1",
     "startDateTime" : "2022-12-12T10:00:00",
@@ -473,66 +534,5 @@
       "5" : 0,
       "6" : 0
     }
-  }, {
-    "type" : "consult",
-    "lessonDesc" : "Recursion Consultation",
-    "startDateTime" : "2022-12-12T12:00:00",
-    "endDateTime" : "2022-12-12T13:00:00",
-    "studentList" : [ {
-      "name" : "Alice Pauline",
-      "matricNum" : "A0000000F",
-      "gradeProfile" : {
-        "gradeMap" : {
-          "MC1" : {
-            "assessment" : "MC1",
-            "isGraded" : false,
-            "marks" : 0.0
-          },
-          "MC2" : {
-            "assessment" : "MC2",
-            "isGraded" : false,
-            "marks" : 0.0
-          },
-          "RA1" : {
-            "assessment" : "RA1",
-            "isGraded" : false,
-            "marks" : 0.0
-          },
-          "RA2" : {
-            "assessment" : "RA2",
-            "isGraded" : false,
-            "marks" : 0.0
-          },
-          "MIDTERM" : {
-            "assessment" : "MIDTERM",
-            "isGraded" : false,
-            "marks" : 0.0
-          },
-          "PRACTICAL_ASSESSMENT" : {
-            "assessment" : "PRACTICAL_ASSESSMENT",
-            "isGraded" : false,
-            "marks" : 0.0
-          },
-          "FINAL_ASSESSMENT" : {
-            "assessment" : "FINAL_ASSESSMENT",
-            "isGraded" : false,
-            "marks" : 0.0
-          },
-          "STUDIO_ATTENDANCE" : {
-            "assessment" : "STUDIO_ATTENDANCE",
-            "isGraded" : false,
-            "marks" : 0.0
-          }
-        }
-      }
-    } ],
-    "attendance" : {
-      "0" : false
-    },
-    "generalNotes" : [ ],
-    "studentNotes" : {
-      "0" : [ ]
-    },
-    "isCompleted" : false
   } ]
 }
