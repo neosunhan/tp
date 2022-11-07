@@ -116,7 +116,7 @@ How the parsing works:
 ### Model component
 **API** : [`Model.java`](https://github.com/AY2223S1-CS2103T-T11-3/tp/tree/master/src/main/java/jarvis/model/Model.java)
 
-<img src="images/ModelClassDiagram.png" width="450" />
+<img src="images/ModelClassDiagram.png" width="600" />
 
 
 The `Model` component,
@@ -132,7 +132,7 @@ Similar analogues exist for task and lesson data. The class diagram is similar a
 
 In particular, the following class diagram shows how a lesson is represented in the `Model` component.
 
-<img src="images/LessonClassDiagram.png" width="450" />
+<img src="images/LessonClassDiagram.png" width="600" />
 
 Note that the 3 Lesson subtypes (`Studio`, `MasteryCheck` and `Consult`) inherit from the abstract `Lesson` class. Each lesson consists of smaller components such as `LessonAttendance`, `TimePeriod` etc.
 
